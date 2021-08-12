@@ -2,10 +2,19 @@ package projetojava4;
 
 public class carros {
 	
+	private int valor;
 	
 	private String Modelo;
 
 	private String Cor ;
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
 
 	public String getModelo() {
 		return modelo;
