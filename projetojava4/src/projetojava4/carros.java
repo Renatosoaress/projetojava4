@@ -8,11 +8,11 @@ public class carros {
 	private String Cor ;
 
 	public String getModelo() {
-		return Modelo;
+		return modelo;
 	}
 
 	public void setModelo(String modelo) {
-		Modelo = modelo;
+		Modelo = Corsa;
 	}
 
 	public String getCor() {
@@ -20,7 +20,7 @@ public class carros {
 	}
 
 	public void setCor(String cor) {
-		Cor = cor;
+		Cor = Vermelho;
 	}
 
 }
